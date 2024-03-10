@@ -1,0 +1,79 @@
+body
+{
+    margin: 0;
+    background-color: #313866;
+    color: #f7f7f7;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header{
+    background-image: linear-gradient(#504099, #313866);
+    border: 1px solid #23294d;
+    height: 10vh;
+}
+
+main{
+    margin-top: 20px;
+}
+
+h1
+{
+    color: orange;
+}
+
+form
+{
+    background-color: #504099;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+}
+
+label
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button
+{
+    margin-top: 20px;
+    background-color: orange;
+    color: #f7f7f7;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border: 1px solid #313866;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: darkorange;
+}
+
+#home
+{
+    color: #f7f7f7;
+    font-size: 1.5em;
+}
+
+#textbox
+{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid #313866;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#Result
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}

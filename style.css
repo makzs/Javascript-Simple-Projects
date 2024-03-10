@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    background-color: #313866;
+    color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(#504099, #313866);
+    border: 1px solid #23294d;
+    height: 10vh;
+}
+
+main
+{
+    height: 200vh;
+}
+
+footer
+{
+    background-image: linear-gradient(#313866, #504099 );
+    border: 1px solid #23294d;
+    height: 5vh;
+}
+
+#home
+{
+    color: #f7f7f7;
+    font-size: 1.5em;
+}
+
+#home_container
+{
+    display: flex;
+}
+
+#Title_container
+{
+    width: 50%;
+    margin: 50px 0px 0px 75px;
+}
+
+#title
+{
+    text-shadow: 2px 2px 4px #23294d;
+}
+
+#Title_buttons_container
+{
+    margin: 30px 0 0 30px;
+}
+
+#Title_image_container
+{
+    margin: 50px 50px;
+}
+
+#Title_image
+{
+    width: 700px;
+    border: 1px solid white;
+    box-shadow: 3px 3px 8px black;
+    border-radius: 10px;
+}
+
+#line1
+{
+    border-color: #23294d;
+}
+
+#main_container
+{
+    display: flex;
+}
+
+#Projects
+{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    gap: 10px;
+}
+
+#Description
+{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    gap: 10px;
+}
+
+.buttons
+{
+    margin: 0 10px 0 0;
+    background-color: orange;
+    color: #f7f7f7;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border: 1px solid #313866;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px black;
+    cursor: pointer;
+}
+
+.buttons:hover
+{
+    background-color: darkorange;
+}
+
+.Projects_content
+{
+    display: flex;
+    background-color: #504099;
+    justify-content: center;
+    text-align: center;
+    font-size: 4em;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px black;
+}
+
+.Projects_content:hover
+{
+    display: flex;
+    background-color: darkorange;
+    justify-content: center;
+    text-align: center;
+    font-size: 5em;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.Text_Description
+{
+    background-color: #504099;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.icons
+{
+    margin: 17px 17px 0 10px;
+    color: inherit;
+}
+
+.project_name
+{
+    color: orange;
+}

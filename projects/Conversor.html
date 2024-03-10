@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="Conversor.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <a id="home" href="../index.html"><i class="bi bi-house-fill"></i></a>
+        </ul>
+    </header>
+
+    <main>
+        <form>
+            <h1>Conversor de Temperatura</h1>
+            <input type="number" id="textbox" value="0">
+    
+            <br>
+            <input type="radio" id="Fahrenheit" name="unit">
+            <label for="Fahrenheit">Celsius -> Fahrenheit</label>
+    
+            <br>
+            <input type="radio" id="Celsius" name="unit">
+            <label for="Celsius">Fahrenheit -> Celsius</label>
+    
+            <br>
+            <button type="button" onclick="convert()">Converter</button>
+            <p id="Result"></p>
+        </form>
+    </main>
+
+    <script src="conversor.js"></script>
+</body>
+</html>
