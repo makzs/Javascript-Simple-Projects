@@ -1,15 +1,15 @@
 body
 {
     margin: 0;
-    background-color: #313866;
-    color: #f7f7f7;
+    background-color: #4E4F50;
+    color: #E2DED0;
     font-family: 'Roboto Mono', monospace;
 }
 
 header{
-    background-image: linear-gradient(#504099, #313866);
-    border: 1px solid #23294d;
-    height: 10vh;
+    background-image: linear-gradient(#647C90, #526575);
+    border: 1px solid #746C70;
+    height: 8vh;
 }
 
 main{
@@ -18,12 +18,12 @@ main{
 
 h1
 {
-    color: orange;
+    color: #E2DED0;
 }
 
 form
 {
-    background-color: #504099;
+    background-color: #647C90;
     text-align: center;
     max-width: 350px;
     margin: auto;
@@ -41,8 +41,8 @@ label
 button
 {
     margin-top: 20px;
-    background-color: orange;
-    color: #f7f7f7;
+    background-color: #366BA1;
+    color: #E2DED0;
     font-size: 1.5em;
     border: none;
     padding: 10px 15px;
@@ -53,7 +53,7 @@ button
 
 button:hover
 {
-    background-color: darkorange;
+    background-color: #28517a;
 }
 
 #home

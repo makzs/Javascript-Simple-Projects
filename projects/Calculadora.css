@@ -1,15 +1,15 @@
 body
 {
     margin: 0;
-    background-color: #313866;
-    color: #f7f7f7;
+    background-color: #4E4F50;
+    color: #E2DED0;
     font-family: 'Roboto Mono', monospace;
 }
 
 header{
-    background-image: linear-gradient(#504099, #313866);
-    border: 1px solid #23294d;
-    height: 10vh;
+    background-image: linear-gradient(#647C90, #526575);
+    border: 1px solid #746C70;
+    height: 8vh;
 }
 
 main{
@@ -24,7 +24,7 @@ button{
     height: 100px;
     border-radius: 50px;
     border: none;
-    background-color: #f7f7f7;
+    background-color: #E2DED0;
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
@@ -57,14 +57,14 @@ button:active
 
 #home
 {
-    color: #f7f7f7;
+    color: #E2DED0;
     font-size: 1.5em;
 }
 
 #calculator
 {
     font-family: Arial, sans-serif;
-    background-color: #504099;
+    background-color: #647C90;
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
@@ -72,13 +72,13 @@ button:active
 
 #display
 {
-    color: #f7f7f7;
+    color: #E2DED0;
     width: 100%;
     padding: 20px;
     font-size: 5rem;
     text-align: left;
     border: none;
-    background-color: #23294d;
+    background-color: #28517a;
 }
 
 

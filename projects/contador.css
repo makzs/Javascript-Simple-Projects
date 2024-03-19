@@ -2,14 +2,14 @@ body
 {
     margin: 0;
     font-family: 'Roboto Mono', monospace;
-    color: #f7f7f7;
-    background-color: #313866;
+    color: #E2DED0;
+    background-color: #4E4F50;
 }
 
 header{
-    background-image: linear-gradient(#504099, #313866);
-    border: 1px solid #23294d;
-    height: 10vh;
+    background-image: linear-gradient(#647C90, #526575);
+    border: 1px solid #746C70;
+    height: 8vh;
 }
 
 main{
@@ -18,23 +18,27 @@ main{
 
 button
 {
-    color: #f7f7f7;
-    background-color: orange;
+    color: #E2DED0;
+    background-color: #366BA1;
     font-size: 30px;
-    border: 1px solid #f7f7f7;
+    border: 1px solid #E2DED0;
     border-radius: 10px;
     cursor: pointer;
 }
 
+button:hover{
+    background-color: #28517a;
+}
+
 #home
 {
-    color: #f7f7f7;
+    color: #E2DED0;
     font-size: 1.5em;
 }
 
 #main_container
 {
-    background-color: #504099;
+    background-color: #647C90;
     text-align: center;
     max-width: 500px;
     margin: auto;
